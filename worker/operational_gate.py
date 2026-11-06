@@ -229,4 +229,3 @@ class OperationalGate:
                 "repo": repo if operation.startswith("git_") else None,
                 "branch": branch if operation.startswith("git_") else None,
                 "never_force_push": operation == "git_push"}
-

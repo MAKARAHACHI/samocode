@@ -118,4 +118,3 @@ def publish_once(gate: OperationalGate, checkout: Path, task: str,
         f.flush()
         os.fsync(f.fileno())
     return receipt
-
